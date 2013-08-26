@@ -1,26 +1,27 @@
-title:            Site Title
-description:      Describe your website here.
-logo:             site-logo.png
+title:            Jason Barbour
+description:      Engineer & enthusiast
+# logo:             site-logo.png
 disqus_shortname: 
 #Comment out url when working locally to resolve base urls correctly
-url:              http://your-website.com
+url:              http://jasonbarbour.github.io
 
 # Owner/author information
 owner:
-  name:           Your Name
-  avatar:         bio-photo.jpg
-  email:          you@email.com
+  name:           Jason Barbour
+  avatar:         jason_barbour.jpg
+  email:          jason.barbour@gmail.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        
+  twitter: jtbarbour
   facebook:       
-  github:         
+  github: jasonbarbour
   stackexchange:  
-  linkedin:       
+  linkedin: jasonbarbour   
   instagram:      
   flickr:         
-  tumblr:         
+  tumblr:     
+  email: jason.barbour@gmail.com    
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    
+  google_plus: 102461587700865463093  
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   
@@ -31,15 +32,7 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: About
-    url: /about
-  - title: Articles
-    url: /articles
-  - title: Theme Setup
-    url: /theme-setup
-  - title: Made Mistakes
-    url: http://mademistakes.com
-    external: true
+
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
