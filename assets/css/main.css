@@ -3282,7 +3282,7 @@ body {
   border-radius: 4px;
 }
 .navigation-wrapper a:hover {
-  background-color: #99cccc;
+  background-color: #333333;
 }
 #site-nav {
   z-index: 9000;
