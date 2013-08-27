@@ -3,7 +3,7 @@ description:      Engineer & enthusiast
 # logo:             site-logo.png
 disqus_shortname: 
 #Comment out url when working locally to resolve base urls correctly
-url:              http://jasonbarbour.github.io
+# url:              http://jasonbarbour.github.io
 
 # Owner/author information
 owner:
