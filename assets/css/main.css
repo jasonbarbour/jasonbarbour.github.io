@@ -1102,6 +1102,9 @@ figure:after {
 }
 figure img {
   margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 figure a img {
   -webkit-transform: translate(0, 0);
