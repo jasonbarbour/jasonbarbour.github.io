@@ -13,13 +13,14 @@ layout: post
 title: #{title}
 description: A description
 modified: #{date}
-category: articles
+category: posts
 tags: []
 image:
   credit:
   creditlink:
   feature:
 comments: true
+share: true
 ---
 
     eos
