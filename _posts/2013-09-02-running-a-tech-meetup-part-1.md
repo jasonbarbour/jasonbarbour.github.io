@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Running a Tech Meetup Part 1
-description: A description
+description: My thoughts on running a tech meetup...
 modified: 2013-09-02
 category: posts
 tags: []
