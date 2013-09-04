@@ -2,9 +2,8 @@
 layout: post
 title: Running a Tech Meetup Part 1
 description: My thoughts on running a tech meetup...
-modified: 2013-09-02
 category: posts
-tags: []
+tags: [Data Science MD]
 image:
   credit:
   creditlink:
