@@ -1,9 +1,15 @@
 ---
 layout: page
-title: Posts
-description: "The personal blog of Jason Barbour..."
+title: 
+description:
 tags: [Jekyll, theme, themes, responsive, blog, minimalism]
 ---
+<figure>
+	<img src="{{ site.url }}/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }} photo" class="about-photo">
+</figure>
+
+I am a software engineer, founder of the <a href="http://www.meetup.com/Data-Science-MD">Data Science MD</a> meetup, and founder of the startup <a href="http://www.epochmissions.com">Epoch Missions</a>.
+<p>
 
 <ul class="post-list">
 {% for post in site.posts limit:10 %} 
