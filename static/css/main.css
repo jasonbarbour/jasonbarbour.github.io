@@ -1,5 +1,15 @@
 html {
-	background-color: silver;
+  background-color: silver;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #b45263;
+    margin-left: 25%;
+	margin-right: 25%;
+    padding: 0;
 }
 
 body {
@@ -72,14 +82,4 @@ body {
 }
 .avatar {
   padding-top: 3%;
-}
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #b45263;
-    margin-left: 25%;
-	margin-right: 25%;
-    padding: 0;
 }
