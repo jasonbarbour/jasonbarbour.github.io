@@ -1,8 +1,4 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'jekyll'
-gem 'jekyll-minibundle'
-gem 'coderay'
-gem 'rake'
-gem 'thor'
-gem 'activesupport'
+gem "jekyll", "~> 3.6.2"
+gem "github-pages", "~> 168"

@@ -1,61 +1,31 @@
-title:            Jason Barbour
-description:      Engineer & Founder
-# logo:             site-logo.png
-disqus_shortname: 
-#Comment out url when working locally to resolve base urls correctly
-url:              http://jtbarbour.com
-
-# Owner/author information
-owner:
-  name:           Jason Barbour
-  avatar:         jason_barbour.jpg
-  email:          jason@jtbarbour.com 
-  # Social networking links used in footer. Update and remove as you like.
-  twitter: jtbarbour
-  facebook:       
-  github: jasonbarbour
-  stackexchange:  
-  linkedin: jasonbarbour   
-  instagram:      
-  flickr:         
-  tumblr:     
-  email: jason@jtbarbour.com 
-  # For Google Authorship https://plus.google.com/authorship
-  google_plus: 
-
-# Analytics and webmaster tools stuff goes here
-google_analytics: UA-43668562-1
-google_verify:      
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
-
-# Links to include in top navigation
-# For external links add external: true
-links:
+# top level stuff you probably don't need to touch
+highlighter: rouge
+markdown: kramdown
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+paginate: 5
+plugins: [jekyll-paginate]
+port: 3000
+safe: true
 
 
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
-future:      true
-pygments:    true
-markdown:    kramdown
+# edit here to achieve your personal greatness
+url: http://username.github.io/
+baseurl: /sustain/
+title: Jason Barbour
+author: Jason
+description: Personal page of Jason Barbour
+avatar: profile.png
+email: jason@jtbarbour.com
+github: jasonbarbour # username
+twitter: jtbarbour
+linkedin: jasonbarbour
+# stackoverflow: username   #e.g: users/2735833/proton1h1
+#Comment out if you don't want disqus
+# disqus: username
+google_analytics: UA-69391421-1
 
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: false
-
-  coderay:
-    coderay_line_numbers: 
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec"]
+# needed for travis-ci build
+exclude: [vendor]

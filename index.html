@@ -1,18 +1,20 @@
 ---
-layout: page
-title: 
-description:
-tags: [Jekyll, theme, themes, responsive, blog, minimalism]
+layout: home
 ---
-<figure>
-	<img src="{{ site.url }}/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }} photo" class="about-photo">
-</figure>
 
-I am a software engineer, founder of the <a href="http://www.meetup.com/Data-Science-MD">Data Science MD</a> meetup, and founder of the startup <a href="http://www.epochmissions.com">Epoch Missions</a>.
-<p>
-
-<ul class="post-list">
-{% for post in site.posts limit:10 %} 
-  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
-{% endfor %}
-</ul>
+<section id="about">
+	<div class="container">
+	  <div class="avatar">
+		<img class="img-circle" src="{{ site.baseurl }}static/img/{{ site.avatar }}" alt="Responsive image" width=22%>
+	  </div>
+	  <hr />
+	  <h3>I'm <strong>{{ site.author }}</strong>, a Software Engineer, Product Builder, and Meetup Organizer.</h3>
+	  <h4>I've started companies, built meetups, and love podcasts.</h4>
+	  <h4>For more, check out my professional <a href="http://linkedin.com/in/{{ site.linkedin }}">experience</a>.</h4>
+	  <h4>Contact me at <a href="http://twitter.com/{{ site.twitter }}">@{{ site.twitter }}</a> or by <a href="mailto:{{ site.email }}">email</a>.</h4>
+	  {% include social.html %}
+	  <br>
+	  <br>
+	  </div>
+	</div>
+</section>
