@@ -42,7 +42,7 @@ body {
 .img-responsive {
  display: block;
  height: auto;
- max-width: 100%;
+ max-width: 75%;
 }
 .panel-default h4 {
   text-align: left;
