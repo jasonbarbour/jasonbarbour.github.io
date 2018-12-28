@@ -14,9 +14,10 @@ hr {
 
 body {
   margin: auto;
-  margin-top: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;  
   height: 100%;
-  width: 65%;
+  width: 75%;
   background-color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
   border-top: 3px solid #b45263;
