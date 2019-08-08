@@ -41,11 +41,12 @@ body {
   color: #56252E;
 }
 .img-responsive {
- display: block;
- height: auto;
- max-width: 100%;
- margin-left: auto;
- margin-right: auto;
+    display: block;
+    height: auto;
+    max-width: 25%;
+    margin-left: auto;
+    border-radius: 50%;
+    margin-right: auto;
 }
 .panel-default h4 {
   text-align: left;
