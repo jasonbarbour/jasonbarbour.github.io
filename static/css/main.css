@@ -1,7 +1,6 @@
 html {
   background-color: silver;
 }
-
 hr {
     display: block;
     height: 1px;
@@ -11,7 +10,6 @@ hr {
 	margin-right: 25%;
     padding: 0;
 }
-
 body {
   margin: auto;
   margin-top: 15px;
@@ -25,7 +23,6 @@ body {
   border-right: 3px solid #b45263;
   border-left: 3px solid #b45263;
 }
-
 .container {
   width: auto;
   max-width: 800px;
@@ -43,7 +40,7 @@ body {
 .img-responsive {
     display: block;
     height: auto;
-    max-width: 25%;
+    max-width: 35%;
     margin-left: auto;
     border-radius: 50%;
     margin-right: auto;
@@ -85,5 +82,5 @@ body {
   color: #b45263;
 }
 .avatar {
-  padding-top: 3%;
+  padding-top: 5%;
 }
