@@ -25,7 +25,6 @@ body {
 }
 .container {
   width: auto;
-  max-width: 800px;
   text-align: center;
 }
 .container .text-muted {
@@ -40,7 +39,7 @@ body {
 .img-responsive {
     display: block;
     height: auto;
-    max-width: 35%;
+    max-width: 30%;
     margin-left: auto;
     border-radius: 50%;
     margin-right: auto;
