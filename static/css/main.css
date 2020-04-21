@@ -1,86 +1,76 @@
 html {
   background-color: #353839;
 }
+
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 2px solid #b45263;
-    margin-left: 10%;
-	margin-right: 10%;
-    padding: 0;
+  display: block;
+  height: 1px;
+  border-top: 2px solid #b45263;
+  margin-left: 25%;
+  margin-right: 25%;
 }
+
 body {
   margin: auto;
-  margin-top: 15px;
-  margin-bottom: 15px;  
+  margin-top: 30px;
+  margin-bottom: 30px;
   height: 100%;
   width: 75%;
   background-color: #fff;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Robot', sans-serif;
   border-top: 3px solid #b45263;
   border-bottom: 3px solid #b45263;
   border-right: 3px solid #b45263;
   border-left: 3px solid #b45263;
 }
+
 .container {
   width: auto;
   text-align: center;
 }
-.container .text-muted {
-  margin: 20px 0;
-}
+
 .container a {
   color: #b45263;
 }
+
 .container a:hover {
   color: #56252E;
 }
+
+@media all and (max-device-width: 1024px) {
+  .img-responsive {
+    width: 50%;
+  }
+}
+
+@media all and (min-device-width: 1025px) {
+  .img-responsive {
+    width: 20%;
+  }
+}
+
 .img-responsive {
-    display: block;
-    height: auto;
-    max-width: 25%;
-    margin-left: auto;
-    border-radius: 50%;
-    margin-right: auto;
-	border: 2px solid #b45263;
+  display: block;
+  height: auto;
+  margin-left: auto;
+  border-radius: 50%;
+  margin-right: auto;
+  border: 2px solid #b45263;
 }
-.panel-default h4 {
-  text-align: left;
-  line-height: 24px;
-  font-size: 20px;
-}
-.panel-default h5 {
-  text-align: left;
-  line-height: 30px;
-  font-size: 18px;
-}
-.panel-default h6 {
-  font-size: 15px;
-}
-.panel-default h4 a, h5 a {
-  color: #27A822;
-}
-.panel-default h4 a:hover, h5 a:hover {
-  color: #267723;
-}
-.panel{
-  border-style: none;
-}
-.panel-body {
-  padding-top: -10px;
-  text-align: left;
-}
+
 .social {
-  padding-top: 12px;
-  word-spacing: 25px;
+  padding-top: 10px;
+  word-spacing: 20px;
 }
-.social h3 > a {
+
+.social a {
   color: #000000;
 }
-.social h3 > a:hover {
+
+.social a:hover {
   color: #b45263;
 }
+
 .avatar {
-  padding-top: 5%;
+  padding-top: 15px;
 }
