@@ -15,7 +15,6 @@ body {
   margin-top: 30px;
   margin-bottom: 30px;
   height: 100%;
-  width: 75%;
   background-color: #fff;
   font-family: 'Roboto Condensed', sans-serif;
   border-top: 3px solid #b45263;
@@ -41,11 +40,17 @@ body {
   .img-responsive {
     width: 50%;
   }
+  body {
+    width: 90%;
+  }
 }
 
 @media all and (min-device-width: 1025px) {
   .img-responsive {
     width: 20%;
+  }
+  body {
+    width: 80%;
   }
 }
 
