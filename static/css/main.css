@@ -36,9 +36,36 @@ body {
   color: #56252E;
 }
 
-@media all and (max-device-width: 1024px) {
+@media all and (max-device-width: 399px) {
   .img-responsive {
     width: 60%;
+  }
+  body {
+    width: 90%;
+  }
+}
+
+@media all and (min-device-width: 499px) {
+  .img-responsive {
+    width: 50%;
+  }
+  body {
+    width: 90%;
+  }
+}
+
+@media all and (min-device-width: 799px) {
+  .img-responsive {
+    width: 40%;
+  }
+  body {
+    width: 90%;
+  }
+}
+
+@media all and (min-device-width: 1024px) {
+  .img-responsive {
+    width: 30%;
   }
   body {
     width: 90%;
