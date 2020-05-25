@@ -54,7 +54,7 @@ body {
   }
 }
 
-@media all and (min-device-width: 499px) {
+@media all and (max-device-width: 499px) {
   .img-responsive {
     width: 35%;
   }
@@ -63,7 +63,7 @@ body {
   }
 }
 
-@media all and (min-device-width: 599px) {
+@media all and (max-device-width: 599px) {
   .img-responsive {
     width: 30%;
   }
