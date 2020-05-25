@@ -45,7 +45,7 @@ body {
   }
 }
 
-@media all and (max-device-width: 399px) {
+@media all and (min-device-width: 300px) and (max-device-width: 399px) {
   .img-responsive {
     width: 50%;
   }
@@ -54,7 +54,7 @@ body {
   }
 }
 
-@media all and (max-device-width: 499px) {
+@media all and (min-device-width: 400px) and (max-device-width: 499px) {
   .img-responsive {
     width: 35%;
   }
@@ -63,7 +63,7 @@ body {
   }
 }
 
-@media all and (max-device-width: 1024px) {
+@media all and (min-device-width: 500px) and (max-device-width: 1024px) {
   .img-responsive {
     width: 30%;
   }
