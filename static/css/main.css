@@ -36,7 +36,7 @@ body {
   color: #56252E;
 }
 
-@media all and (max-device-width: 399px) {
+@media all and (max-device-width: 299px) {
   .img-responsive {
     width: 60%;
   }
@@ -45,9 +45,18 @@ body {
   }
 }
 
+@media all and (max-device-width: 399px) {
+  .img-responsive {
+    width: 50%;
+  }
+  body {
+    width: 90%;
+  }
+}
+
 @media all and (min-device-width: 499px) {
   .img-responsive {
-    width: 40%;
+    width: 35%;
   }
   body {
     width: 90%;
