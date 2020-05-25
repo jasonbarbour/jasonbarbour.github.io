@@ -63,7 +63,7 @@ body {
   }
 }
 
-@media all and (max-device-width: 599px) {
+@media all and (max-device-width: 1024px) {
   .img-responsive {
     width: 30%;
   }
